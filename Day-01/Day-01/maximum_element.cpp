@@ -1,6 +1,6 @@
 // Name: Jitendra Deora
 // Language: C++
-// Day 01 - Maximum Element in Array
+// Day 01  - Maximum Element in Array
 
 #include <iostream>
 using namespace std;
