@@ -7,7 +7,8 @@ int main() {
     int n = 5;
 
     int maxElement = arr[0];
- \\ select the element of index 0 as a reference for comparing other elements. 
+ /* select the element of index 0 as a reference for comparing other elements. 
+ */
 
     for(int i = 1; i < n; i++) {
 
