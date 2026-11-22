@@ -1,0 +1,34 @@
+
+// Name: Jitendra Deora
+// Language: C++
+// Day 07 - Remove Duplicates from Sorted Array
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    vector<int> nums = {1, 1, 2, 2, 3};
+
+    int j = 0;
+
+    for(int i = 1; i < nums.size(); i++) {
+        if(nums[i] != nums[j]) {
+            j++;
+            nums[j] = nums[i];
+        }
+    }
+
+    cout << "Unique elements: ";
+
+    for(int i = 0; i <= j; i++) {
+        cout << nums[i] << " ";
+    }
+
+    cout << "\nTotal unique elements: " << j + 1;
+
+    return 0;
+}
+
+// Time Complexity: O(n)
+// Space Complexity: O(1)
